@@ -27,7 +27,7 @@ function Edit() {
     dispatch(fetchEditId(id))
   }, [])
 
-  const { loading, selectedStudents } = useSelector(state => state.studentDetails)
+  const { selectedStudents } = useSelector(state => state.studentDetails)
 
 
   useEffect(() => {

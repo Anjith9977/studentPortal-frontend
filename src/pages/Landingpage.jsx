@@ -19,14 +19,6 @@ function Landingpage() {
         </p>
       </section>
 
-       <div className="w-full text-center mt-4">
-                <Link to={'/students'}>
-                  <button className="bg-blue-900 text-white font-medium px-5 py-2 rounded-lg shadow hover:bg-blue-800 transition">
-                    View Students
-                  </button>
-                </Link>
-              </div>
-
       {/* Stats Section */}
       <section className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 px-10 py-16">
 

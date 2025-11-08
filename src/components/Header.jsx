@@ -28,17 +28,18 @@ function Header() {
         {/* Desktop links / Mobile menu button */}
         <div className="flex items-center justify-end">
           {/* Desktop Links */}
-          <ul className="hidden md:flex items-center justify-end text-white font-medium">
-            <Link to="/" className="mx-3 hover:text-gray-300">
+          <ul className="hidden md:flex items-center justify-end font-medium">
+            <Link to="/" className="mx-3 text-white no-underline hover:text-gray-300">
               Home
             </Link>
-            <Link to="/add" className="mx-3 hover:text-gray-300">
+            <Link to="/add" className="mx-3 text-white no-underline hover:text-gray-300">
               Add Students
             </Link>
-            <Link to="/students" className="mx-3 hover:text-gray-300">
+            <Link to="/students" className="mx-3 text-white no-underline hover:text-gray-300">
               Students
             </Link>
           </ul>
+
 
           {/* Mobile Menu Icon */}
           <button
